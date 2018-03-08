@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box
+}
+
+.btn-primmary {
+    background-color: #4ca9ff
+}
+
+.page-header {
+    background-image: url(img/Bez%20nazwy-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+.page-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    list-style: none
+}
+
+.page-nav ul li {
+    font-size: 1.5em
+}
+
+.page-nav ul li a {
+    color: #fff;
+    text-decoration: none
+}
+
+.page-header h1 {
+    padding-top: 220px;
+    font-size: 2.9em;
+    color: #fff
+}
+
+.page-header h1 span {
+    color: #4ba9ff
+}
+
+
+.title {
+    color: #40485a;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #4a24a8;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.about-section article {
+    padding: 10px;
+
+}
+
+.about-section article p {
+    margin-bottom: 15px;
+    line-height: 30px
+}
+
+.about-section .about-foto {
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+
+.about-section .about-foto figure {
+    margin: 0;
+    padding: 0;
+    /*width: 50%;*/
+}
+
+figure img {
+    width: 100%
+}
+
+.one-offer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.one-offer h3 {
+    color: #40485a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.one-offer p {
+    color: #6a707d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mobile-app {
+    background-image: url(img/mobile-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mobile-app h4 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 30px;
+
+}
+
+.mobile-app h4 span {
+    color: #4ca9ff
+}
+
+.mobile-app p {
+    color: #cfd2ff;
+    line-height: 30px
+}
+
+.mobile-app .btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.comments article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 100px -39px rgba(0, 0, 0, 0.75);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.comments article img {
+    width: 60px;
+    height: auto;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.comments p {
+    color: #40485a;
+    line-height: 30px;
+    padding: 30px;
+}
+
+.comments p span {
+    color: #4ca9ff
+}
+
+.page-footer {
+    background-image: url(img/mobile-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.page-footer .container {
+    display: flex;
+    flex-direction: column
+}
+
+.page-footer p {
+    color: #cfd2ff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px
+}
+
+@media (min-width:600px) {
+    .page-header h1 {
+        font-size: 4.7em
+    }
+    .title {
+        font-size: 3em
+    }
+    p {
+        font-size: 1.5em
+    }
+    .offers {
+        display: flex;
+        align-items: center
+    }
+    .one-offer figure {
+        width: 30%;
+        margin: auto
+    }
+    .mobile-app .container {
+        display: flex;
+    }
+    .mobile-foto figure {
+        /*height: 100px*/
+    }
+}
